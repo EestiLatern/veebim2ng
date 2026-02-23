@@ -294,14 +294,14 @@ $showEnd = isset($_SESSION['player']) && !$showGame;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nõmme kohalik seiklusmäng</title>
+    <title>Veebirakenduse pealkiri</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
 <?php if($showWelcome): ?>
     <div class="welcome-screen">
-        <h1>🌲 Tere tulemast Nõmme mängu! 🌲</h1>
+        <h1>pealkiri</h1>
         <p class="welcome-text">
             tiiteltekst 1<br>
             tiiteltekst 2
@@ -352,10 +352,9 @@ $showEnd = isset($_SESSION['player']) && !$showGame;
         <div class="game-info">
             <h3>Mängu reeglid:</h3>
             <ul>
-                <li>Sisesta oma andmed ja vali, kellega mängid.</li>
-                <li>Otsi vastuseid Nõmmel ringi rännates (mängu jooksul on vajalik bussisõit ja rongisõit).</li>
-                <li>Kui tead juba vastust, võid selle juba kirja panna, ning võid jätte ühe punkti vahelt käimata.</li>
-                <li>Lõbutse ja ära tee sohki!</li>
+                <li>reegel 1</li>
+                <li>reegel 2</li>
+                <li>reegel 3</li>
             </ul>
         </div>
     </div>
