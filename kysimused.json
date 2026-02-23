@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "type": "info",
+    "content": "Info, jutt vms tekst, tervitab inimest või selgitab talle äsja vastanud küsimuse",
+    "image": "image.jpg",
+    "order": "fixed"
+  },
+  {
+    "id": 2,
+    "type": "valik",
+    "question": "Küsimus, kus antakse ette mitu valikut ja on üks vastus.",
+    "options": ["varjant1", "varjant2", "varjant3", "varjant4"],
+    "correct": ["varjant1"],
+    "image": "image.jpg",
+    "order": "fixed"
+  },
+  {
+    "id": 3,
+    "type": "tekst",
+    "question": "Küsimus, kuhu tuleb kirjutada täpse vastuse ka kirjavahemärkidega.",
+    "correct": ["vastus"],
+    "image": "image.png",
+    "order": "fixed"
+  },
+  {
+    "id": 4,
+    "type": "mitmikvalik",
+    "question": "Küsimus, kus antakse ette mitu valikut ja on mitu vastust.",
+    "options": ["varjant1", "varjant2", "varjant3", "varjant4"],
+    "correct": ["varjant1"],
+    "order": "fixed"
+  }
+]
