@@ -30,5 +30,13 @@
     "options": ["varjant1", "varjant2", "varjant3", "varjant4"],
     "correct": ["varjant1"],
     "order": "fixed"
+  },
+  {
+    "id": 5,
+    "type": "mitmikvalik",
+    "question": "Küsimus, kus palutakse kasutajal sisestada täpne kuupäev.",
+    "type": "kuupäev",
+    "correct": ["20.08.1991"],
+    "order": "fixed"
   }
 ]
